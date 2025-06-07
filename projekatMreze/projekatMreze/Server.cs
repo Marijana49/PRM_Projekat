@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace projekatMreze
 {
-    internal class Server
+    public class Server
     {
     }
 }

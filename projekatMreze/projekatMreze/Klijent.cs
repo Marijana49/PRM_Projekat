@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace projekatMreze
 {
-    internal class Klijent
+    public class Klijent
     {
         static void Main(string[] args)
         {
