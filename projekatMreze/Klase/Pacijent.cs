@@ -10,7 +10,7 @@ namespace Klase
         public string Prezime { get; set; }
         public string Adresa { get; set; }
         public string VrstaZahteva { get; set; }
-        public string Status { get; set; }
+        public string StatusPacijenta { get; set; }
 
         public Pacijent(int lBO, string ime, string prezime, string adresa, string vrstaZahteva, string status)
         {
@@ -19,7 +19,7 @@ namespace Klase
             Prezime = prezime;
             Adresa = adresa;
             VrstaZahteva = vrstaZahteva;
-            Status = status;
+            StatusPacijenta = status;
         }
     }
 }
