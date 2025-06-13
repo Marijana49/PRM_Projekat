@@ -1,0 +1,2 @@
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\obj\Debug\Klase.csproj.AssemblyReference.cache
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\obj\Debug\Klase.csproj.CoreCompileInputs.cache
