@@ -1,0 +1,2 @@
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\obj\Debug\TCPKlijent.csproj.AssemblyReference.cache
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\obj\Debug\TCPKlijent.csproj.CoreCompileInputs.cache
