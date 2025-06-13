@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2B106975-8647-4205-B417-BEC1A44245F7}</ProjectGuid>
+    <ProjectGuid>{D16F2F8E-9638-40EE-9F77-47F49B50FE46}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>projekatMreze</RootNamespace>
-    <AssemblyName>projekatMreze</AssemblyName>
+    <RootNamespace>TCPKlijent</RootNamespace>
+    <AssemblyName>TCPKlijent</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
