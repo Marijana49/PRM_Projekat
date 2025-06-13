@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Marijana Zaric\\Desktop\\prazno\\projekatMreze\\",
+  "WorkspaceRootPath": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B106975-8647-4205-B417-BEC1A44245F7}|projekatMreze\\projekatMreze.csproj|c:\\users\\marijana zaric\\desktop\\prazno\\projekatmreze\\projekatmreze\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B106975-8647-4205-B417-BEC1A44245F7}|projekatMreze\\projekatMreze.csproj|solutionrelative:projekatmreze\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FCDC346-7047-48D4-BA9D-E4B5C878F5FE}|Server\\Server.csproj|c:\\users\\marijana zaric\\documents\\github\\prm_projekat\\projekatmreze\\server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FCDC346-7047-48D4-BA9D-E4B5C878F5FE}|Server\\Server.csproj|solutionrelative:server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B106975-8647-4205-B417-BEC1A44245F7}|projekatMreze\\projekatMreze.csproj|c:\\users\\marijana zaric\\documents\\github\\prm_projekat\\projekatmreze\\projekatmreze\\klijent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B106975-8647-4205-B417-BEC1A44245F7}|projekatMreze\\projekatMreze.csproj|solutionrelative:projekatmreze\\klijent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Desktop\\prazno\\projekatMreze\\projekatMreze\\Program.cs",
-              "RelativeDocumentMoniker": "projekatMreze\\Program.cs",
-              "ToolTip": "C:\\Users\\Marijana Zaric\\Desktop\\prazno\\projekatMreze\\projekatMreze\\Program.cs",
-              "RelativeToolTip": "projekatMreze\\Program.cs",
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Server\\Server.cs",
+              "RelativeDocumentMoniker": "Server\\Server.cs",
+              "ToolTip": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Server\\Server.cs",
+              "RelativeToolTip": "Server\\Server.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:19:50.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Klijent.cs",
+              "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\projekatMreze\\Klijent.cs",
+              "RelativeDocumentMoniker": "projekatMreze\\Klijent.cs",
+              "ToolTip": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\projekatMreze\\Klijent.cs",
+              "RelativeToolTip": "projekatMreze\\Klijent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T16:16:12.57Z",
               "EditorCaption": ""
