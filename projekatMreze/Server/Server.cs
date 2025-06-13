@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace projekatMreze
+namespace Server
 {
-    public class Server
+    internal class Server
     {
+        static void Main(string[] args)
+        {
+        }
     }
 }
