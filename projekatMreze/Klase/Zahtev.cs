@@ -1,9 +1,5 @@
-﻿using System;
-using Enumeracije;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Enumeracije;
+using System;
 
 namespace Klase
 {
@@ -12,7 +8,7 @@ namespace Klase
     {
         public int IDpacijenta { get; set; }
         public int IDjedinice { get; set; }
-        public StatusZahteva Status {  get; set; }
+        public StatusZahteva Status { get; set; }
 
         public Zahtev(int iDpacijenta, int iDjedinice, StatusZahteva status)
         {
