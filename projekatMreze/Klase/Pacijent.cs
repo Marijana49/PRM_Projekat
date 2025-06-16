@@ -12,14 +12,19 @@ namespace Klase
         public string VrstaZahteva { get; set; }
         public string StatusPacijenta { get; set; }
 
-        public Pacijent(int lBO, string ime, string prezime, string adresa, string vrstaZahteva, string status)
+        public Pacijent(int lBO, string ime, string prezime, string adresa, string vrstaZahteva, string statusPacijenta)
         {
             LBO = lBO;
             Ime = ime;
             Prezime = prezime;
             Adresa = adresa;
             VrstaZahteva = vrstaZahteva;
-            StatusPacijenta = status;
+            StatusPacijenta = statusPacijenta;
+        }
+
+        public Pacijent()
+        {
+            // prazan konstruktor 
         }
     }
 }

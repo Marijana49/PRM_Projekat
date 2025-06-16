@@ -3,16 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0A7FA00-99C9-449A-A3A5-8142122A8CD2}|Klase\\Klase.csproj|c:\\users\\marijana zaric\\documents\\github\\prm_projekat\\projekatmreze\\klase\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0A7FA00-99C9-449A-A3A5-8142122A8CD2}|Klase\\Klase.csproj|solutionrelative:klase\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D16F2F8E-9638-40EE-9F77-47F49B50FE46}|TCPKlijent\\TCPKlijent.csproj|C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\tcpklijent\\klijent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D16F2F8E-9638-40EE-9F77-47F49B50FE46}|TCPKlijent\\TCPKlijent.csproj|c:\\users\\marijana zaric\\documents\\github\\prm_projekat\\projekatmreze\\tcpklijent\\klijent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D16F2F8E-9638-40EE-9F77-47F49B50FE46}|TCPKlijent\\TCPKlijent.csproj|solutionrelative:tcpklijent\\klijent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0A7FA00-99C9-449A-A3A5-8142122A8CD2}|Klase\\Klase.csproj|C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\klase\\pacijent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0A7FA00-99C9-449A-A3A5-8142122A8CD2}|Klase\\Klase.csproj|solutionrelative:klase\\pacijent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Klase||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Enumeracije||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A7FA00-99C9-449A-A3A5-8142122A8CD2}|Klase\\Klase.csproj|C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\klase\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A7FA00-99C9-449A-A3A5-8142122A8CD2}|Klase\\Klase.csproj|solutionrelative:klase\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marijana Zaric\\Downloads\\24e205_78a3099052d340e2b1c1613b5b00a7c2\\Zadaci\\Z2\\TCPClient\\Client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -48,24 +54,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Enumeracije",
+              "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Enumeracije\\Enumeracije.csproj",
+              "RelativeDocumentMoniker": "Enumeracije\\Enumeracije.csproj",
+              "ToolTip": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Enumeracije\\Enumeracije.csproj",
+              "RelativeToolTip": "Enumeracije\\Enumeracije.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-13T11:55:12.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Klase\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Klase\\Properties\\AssemblyInfo.cs",
               "ToolTip": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Klase\\Properties\\AssemblyInfo.cs",
               "RelativeToolTip": "Klase\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T11:48:15.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T11:48:15.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Downloads\\24e205_78a3099052d340e2b1c1613b5b00a7c2\\Zadaci\\Z2\\TCPClient\\Client.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\24e205_78a3099052d340e2b1c1613b5b00a7c2\\Zadaci\\Z2\\TCPClient\\Client.cs",
@@ -77,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "TipJedinice.cs",
               "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Enumeracije\\TipJedinice.cs",
               "RelativeDocumentMoniker": "Enumeracije\\TipJedinice.cs",
@@ -89,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "StatusZahteva.cs",
               "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Enumeracije\\StatusZahteva.cs",
               "RelativeDocumentMoniker": "Enumeracije\\StatusZahteva.cs",
@@ -101,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Zahtev.cs",
               "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Klase\\Zahtev.cs",
               "RelativeDocumentMoniker": "Klase\\Zahtev.cs",
@@ -113,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Jedinica.cs",
               "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Klase\\Jedinica.cs",
               "RelativeDocumentMoniker": "Klase\\Jedinica.cs",
@@ -125,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Server.cs",
               "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Downloads\\24e205_78a3099052d340e2b1c1613b5b00a7c2\\Zadaci\\Z2\\TCPServer\\Server.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\24e205_78a3099052d340e2b1c1613b5b00a7c2\\Zadaci\\Z2\\TCPServer\\Server.cs",
@@ -137,31 +153,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Pacijent.cs",
               "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Klase\\Pacijent.cs",
               "RelativeDocumentMoniker": "Klase\\Pacijent.cs",
               "ToolTip": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Klase\\Pacijent.cs",
               "RelativeToolTip": "Klase\\Pacijent.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBMAAAAcAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA9wBoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T09:57:42.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Klijent.cs",
               "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\TCPKlijent\\Klijent.cs",
               "RelativeDocumentMoniker": "TCPKlijent\\Klijent.cs",
               "ToolTip": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\TCPKlijent\\Klijent.cs",
               "RelativeToolTip": "TCPKlijent\\Klijent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:34:09.371Z"
+              "WhenOpened": "2025-06-13T09:34:09.371Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "Klase",
+              "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Klase\\Klase.csproj",
+              "RelativeDocumentMoniker": "Klase\\Klase.csproj",
+              "ToolTip": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Klase\\Klase.csproj",
+              "RelativeToolTip": "Klase\\Klase.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-13T12:01:06.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Server.cs",
               "DocumentMoniker": "C:\\Users\\Marijana Zaric\\Documents\\GitHub\\PRM_Projekat\\projekatMreze\\Server\\Server.cs",
               "RelativeDocumentMoniker": "Server\\Server.cs",

@@ -1,2 +1,7 @@
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Enumeracije\bin\Debug\Enumeracije.dll.config
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Enumeracije\bin\Debug\Enumeracije.dll
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Enumeracije\bin\Debug\Enumeracije.pdb
 C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Enumeracije\obj\Debug\Enumeracije.csproj.AssemblyReference.cache
 C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Enumeracije\obj\Debug\Enumeracije.csproj.CoreCompileInputs.cache
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Enumeracije\obj\Debug\Enumeracije.dll
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Enumeracije\obj\Debug\Enumeracije.pdb

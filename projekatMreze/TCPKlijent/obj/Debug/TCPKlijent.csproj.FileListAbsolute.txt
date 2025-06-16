@@ -1,2 +1,14 @@
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\bin\Debug\TCPKlijent.exe.config
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\bin\Debug\TCPKlijent.exe
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\bin\Debug\TCPKlijent.pdb
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\bin\Debug\Klase.dll
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\bin\Debug\Enumeracije.dll
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\bin\Debug\Klase.pdb
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\bin\Debug\Klase.dll.config
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\bin\Debug\Enumeracije.pdb
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\bin\Debug\Enumeracije.dll.config
 C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\obj\Debug\TCPKlijent.csproj.AssemblyReference.cache
 C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\obj\Debug\TCPKlijent.csproj.CoreCompileInputs.cache
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\obj\Debug\TCPKlijent.csproj.Up2Date
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\obj\Debug\TCPKlijent.exe
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\TCPKlijent\obj\Debug\TCPKlijent.pdb

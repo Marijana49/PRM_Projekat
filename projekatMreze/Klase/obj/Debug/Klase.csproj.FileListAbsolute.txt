@@ -1,2 +1,11 @@
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\bin\Debug\Klase.dll.config
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\bin\Debug\Klase.dll
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\bin\Debug\Klase.pdb
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\bin\Debug\Enumeracije.dll
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\bin\Debug\Enumeracije.pdb
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\bin\Debug\Enumeracije.dll.config
 C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\obj\Debug\Klase.csproj.AssemblyReference.cache
 C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\obj\Debug\Klase.csproj.CoreCompileInputs.cache
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\obj\Debug\Klase.csproj.Up2Date
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\obj\Debug\Klase.dll
+C:\Users\Marijana Zaric\Documents\GitHub\PRM_Projekat\projekatMreze\Klase\obj\Debug\Klase.pdb
