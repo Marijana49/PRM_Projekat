@@ -2,32 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/projekatMreze/.vs/projekatMreze/FileContentIndex/20fb2013-2ef9-469c-93d8-ff715ebe0635.vsidx
-/projekatMreze/.vs/projekatMreze/FileContentIndex
-/projekatMreze/TCPKlijent/obj/Debug/TCPKlijent.exe
-/projekatMreze/TCPKlijent/bin/Debug/TCPKlijent.exe
-/projekatMreze/TCPKlijent/obj/Debug/TCPKlijent.csproj.Up2Date
-/projekatMreze/TCPKlijent/obj/Debug/TCPKlijent.pdb
-/projekatMreze/TCPKlijent/bin/Debug/TCPKlijent.pdb
-/projekatMreze/TCPKlijent/bin/Debug/TCPKlijent.exe.config
-/projekatMreze/TCPKlijent/bin/Debug/Klase.pdb
-/projekatMreze/TCPKlijent/bin/Debug/Klase.dll.config
-/projekatMreze/TCPKlijent/bin/Debug/Klase.dll
-/projekatMreze/TCPKlijent/bin/Debug/Enumeracije.pdb
-/projekatMreze/TCPKlijent/bin/Debug/Enumeracije.dll.config
-/projekatMreze/TCPKlijent/bin/Debug
-/projekatMreze/Klase/obj/Debug/Klase.dll
-/projekatMreze/Klase/obj/Debug/Klase.pdb
-/projekatMreze/Klase/obj/Debug/Klase.csproj.Up2Date
-/projekatMreze/Klase/bin/Debug/Enumeracije.dll
-/projekatMreze/Klase/bin/Debug/Enumeracije.pdb
-/projekatMreze/Klase/bin/Debug/Klase.pdb
-/projekatMreze/Klase/bin/Debug
-/projekatMreze/Enumeracije/bin/Debug
-/projekatMreze/Server/bin/Debug/Enumeracije.pdb
-/projekatMreze/Server/bin/Debug/Klase.dll.config
-/projekatMreze/Server/bin/Debug/Klase.pdb
-/projekatMreze/Server/bin/Debug/Enumeracije.dll
-/projekatMreze/Server/bin/Debug/Klase.dll
-/projekatMreze/Server/bin/Debug/Enumeracije.dll.config
-/projekatMreze/Server/obj/Debug/Server.csproj.Up2Date
+# Build results
+bin/
+obj/
+
