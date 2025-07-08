@@ -3,7 +3,8 @@ using System.Net;
 using System.Net.Sockets;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using Klase; 
+using Klase;
+
 
 namespace TCPKlijent
 {
@@ -12,7 +13,7 @@ namespace TCPKlijent
         static void Main(string[] args)
         {
             Socket klijentSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            IPEndPoint serverEP = new IPEndPoint(IPAddress.Loopback, 50001);
+            IPEndPoint serverEP = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 50001);
             klijentSocket.Connect(serverEP);
             Console.WriteLine("Klijent uspešno povezan sa serverom!");
 
@@ -20,30 +21,25 @@ namespace TCPKlijent
 
             while (true)
             {
-                Console.WriteLine("Unesite LBO: ");
+                Console.Write("Unesite LBO: ");
                 int LBO = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Ime pacijenta: ");
+                Console.Write("Ime pacijenta: ");
                 string imePacijenta = Console.ReadLine();
 
-                Console.WriteLine("Prezime pacijenta: ");
+                Console.Write("Prezime pacijenta: ");
                 string prezimePacijenta = Console.ReadLine();
 
-                Console.WriteLine("Adresa pacijenta: ");
+                Console.Write("Adresa pacijenta: ");
                 string adresaPacijenta = Console.ReadLine();
 
-                Console.WriteLine("Izaberite uslugu: terapija, pregled, urgentna pomoc");
+                Console.Write("Izaberite uslugu (terapija, pregled, urgentna pomoć): ");
                 string izbor = Console.ReadLine();
 
-                Pacijent pacijent = new Pacijent
-                {
-                    LBO = LBO,
-                    Ime = imePacijenta,
-                    Prezime = prezimePacijenta,
-                    Adresa = adresaPacijenta,
-                    VrstaZahteva = izbor
-                };
+                string status = "";
 
+                Pacijent pacijent = new Pacijent(LBO, imePacijenta, prezimePacijenta, adresaPacijenta, izbor, status);
+         
                 using (MemoryStream ms = new MemoryStream())
                 {
                     binaryFormatter.Serialize(ms, pacijent);

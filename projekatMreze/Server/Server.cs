@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Klase;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Server
 {
@@ -10,6 +12,106 @@ namespace Server
     {
         static void Main(string[] args)
         {
+            Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            IPEndPoint serverEP = new IPEndPoint(IPAddress.Any, 50001);
+
+            serverSocket.Bind(serverEP);
+            serverSocket.Listen(5);
+
+            Console.WriteLine("Server je u stanju slušanja");
+
+            Socket acceptedSocket = serverSocket.Accept();
+
+            IPEndPoint clientEP = acceptedSocket.RemoteEndPoint as IPEndPoint;
+            Console.WriteLine($"Povezan novi klijent, adresa {clientEP}");
+
+            byte[] buffer = new byte[4096];
+            List<Pacijent> pacijenti = new List<Pacijent>();
+            List<Pacijent> pacijentiAzurirani = new List<Pacijent>();
+            BinaryFormatter binaryFormatter = new BinaryFormatter();
+
+            while (true)
+            {
+                try
+                {
+
+                    int brBajta = acceptedSocket.Receive(buffer);
+                    if (brBajta == 0) break;
+
+                    using (MemoryStream ms = new MemoryStream(buffer, 0, brBajta))
+                    {
+                        Pacijent p = (Pacijent)binaryFormatter.Deserialize(ms);
+                        pacijenti.Add(p);
+                        Pacijent azuriranPacijent = ProslediJedinici(p);
+
+                        pacijentiAzurirani.Add(azuriranPacijent);
+
+                        Console.WriteLine("Podaci primljeni:");
+                        Console.WriteLine($"Ime i prezime:{p.Ime} {p.Prezime}, LBO:{p.LBO}, Adresa:{p.Adresa}, Zahtev:{p.VrstaZahteva}, Status:{p.StatusPacijenta} ");
+
+                        Console.WriteLine($"Ažurirani podaci o pacijentu: {azuriranPacijent.Ime} {azuriranPacijent.Prezime} {azuriranPacijent.StatusPacijenta}");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Greška: {ex.Message}");
+                    break;
+                }
+            }
+
+            Console.WriteLine("Server se zatvara");
+            Console.ReadKey();
+            acceptedSocket.Close();
+            serverSocket.Close();
         }
+
+        static Pacijent ProslediJedinici(Pacijent p)
+        {
+            int port = 0;
+
+            switch (p.VrstaZahteva.ToLower())
+            {
+                case "terapija":
+                    port = 60002;
+                    break;
+                case "dijagnostika":
+                    port = 60001; 
+                    break;
+                case "urgentna":
+                    port = 60003;
+                    break;
+                default:
+                    Console.WriteLine("Nepoznata usluga!");
+                    return p;
+            }
+
+            try
+            {
+                Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                client.Connect(IPAddress.Loopback, port);
+
+                BinaryFormatter formatter = new BinaryFormatter();
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    formatter.Serialize(ms, p);
+                    client.Send(ms.ToArray());
+                }
+
+                byte[] buffer = new byte[4096];
+                int received = client.Receive(buffer);
+                using (MemoryStream msIn = new MemoryStream(buffer, 0, received))
+                {
+                    Pacijent odgovor = (Pacijent)formatter.Deserialize(msIn);
+                    client.Close();
+                    return odgovor;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Greška: {ex.Message}");
+                return p;
+            }
+        }
+
     }
 }

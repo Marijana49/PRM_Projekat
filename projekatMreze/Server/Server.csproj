@@ -49,5 +49,27 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DijagnostickaJedinica\DijagnostickaJedinica.csproj">
+      <Project>{74c9aff2-8f36-4f05-bd42-c6e4b099df6e}</Project>
+      <Name>DijagnostickaJedinica</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enumeracije\Enumeracije.csproj">
+      <Project>{8ee9bec6-1670-467e-a262-a6d7dd77c882}</Project>
+      <Name>Enumeracije</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Klase\Klase.csproj">
+      <Project>{A0A7FA00-99C9-449A-A3A5-8142122A8CD2}</Project>
+      <Name>Klase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerapeutskaJedinica\TerapeutskaJedinica.csproj">
+      <Project>{70637ea2-c068-461a-ba36-77f2ebd3b24b}</Project>
+      <Name>TerapeutskaJedinica</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UrgentnaJedinica\UrgentnaJedinica.csproj">
+      <Project>{d8a98a1f-78fa-47f6-beec-da8a7ea5f5fe}</Project>
+      <Name>UrgentnaJedinica</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

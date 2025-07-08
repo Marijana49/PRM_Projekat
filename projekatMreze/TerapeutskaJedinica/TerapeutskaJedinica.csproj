@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8EE9BEC6-1670-467E-A262-A6D7DD77C882}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>Enumeracije</RootNamespace>
-    <AssemblyName>Enumeracije</AssemblyName>
+    <ProjectGuid>{70637EA2-C068-461A-BA36-77F2EBD3B24B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TerapeutskaJedinica</RootNamespace>
+    <AssemblyName>TerapeutskaJedinica</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,12 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StatusZahteva.cs" />
+    <Compile Include="TerapeutskaJedinica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TipJedinice.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Klase\Klase.csproj">
+      <Project>{a0a7fa00-99c9-449a-a3a5-8142122a8cd2}</Project>
+      <Name>Klase</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
