@@ -36,10 +36,15 @@ namespace TCPKlijent
                 Console.Write("Izaberite uslugu (terapija, pregled, urgentna pomoć): ");
                 string izbor = Console.ReadLine();
 
-                string status = "";
+                Pacijent pacijent = new Pacijent
+                {
+                    LBO = LBO,
+                    Ime = imePacijenta,
+                    Prezime = prezimePacijenta,
+                    Adresa = adresaPacijenta,
+                    VrstaZahteva = izbor
+                };
 
-                Pacijent pacijent = new Pacijent(LBO, imePacijenta, prezimePacijenta, adresaPacijenta, izbor, status);
-         
                 using (MemoryStream ms = new MemoryStream())
                 {
                     binaryFormatter.Serialize(ms, pacijent);
