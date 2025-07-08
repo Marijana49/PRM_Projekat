@@ -10,6 +10,8 @@ namespace Klase
         public int IDjedinice { get; set; }
         public string Status { get; set; }
 
+        public Jedinica() { }
+
         public Jedinica(TipJedinice tipJedinice, int iDjedinice, string status)
         {
             TipJedinice = tipJedinice;
