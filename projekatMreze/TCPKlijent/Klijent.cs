@@ -1,10 +1,9 @@
-﻿using System;
+﻿using Klase;
+using System;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using Klase;
-
 
 namespace TCPKlijent
 {
@@ -12,8 +11,10 @@ namespace TCPKlijent
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Klijent je pokrenut!");
             Socket klijentSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            IPEndPoint serverEP = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 50001);
+            IPEndPoint serverEP = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 50002);
+
             klijentSocket.Connect(serverEP);
             Console.WriteLine("Klijent uspešno povezan sa serverom!");
 
@@ -33,7 +34,7 @@ namespace TCPKlijent
                 Console.Write("Adresa pacijenta: ");
                 string adresaPacijenta = Console.ReadLine();
 
-                Console.Write("Izaberite uslugu (terapija, pregled, urgentna pomoć): ");
+                Console.Write("Izaberite uslugu (terapija, dijagnostika, urgentna pomoć): ");
                 string izbor = Console.ReadLine();
 
                 Pacijent pacijent = new Pacijent
@@ -42,8 +43,10 @@ namespace TCPKlijent
                     Ime = imePacijenta,
                     Prezime = prezimePacijenta,
                     Adresa = adresaPacijenta,
-                    VrstaZahteva = izbor
+                    VrstaZahteva = izbor,
                 };
+
+                pacijent.StatusPacijenta = PomocneMetode.OdrediStatusPacijenta(pacijent);
 
                 using (MemoryStream ms = new MemoryStream())
                 {

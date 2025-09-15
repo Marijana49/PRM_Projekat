@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Enumeracije\Enumeracije.csproj">
+      <Project>{8ee9bec6-1670-467e-a262-a6d7dd77c882}</Project>
+      <Name>Enumeracije</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Klase\Klase.csproj">
       <Project>{a0a7fa00-99c9-449a-a3a5-8142122a8cd2}</Project>
       <Name>Klase</Name>
