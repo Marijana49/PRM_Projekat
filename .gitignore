@@ -1,4 +1,4 @@
-ï»¿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
@@ -43,8 +43,46 @@
 /projekatMreze/Klase/obj/Debug/Klase.csproj.AssemblyReference.cache
 /projekatMreze/Jedinice/obj/Debug/net6.0/Jedinice.GeneratedMSBuildEditorConfig.editorconfig
 
-# Build results
+/projekatMreze/StatusPacijenta
+
+
+# Visual Studio privremeni folderi i fajlovi
+.vs/
+*.user
+*.suo
+*.wsuo
+*.cache
+*.pdb
+
+# Build output
 bin/
 obj/
+[Bb]uild/
+[Ll]og/
 
-/projekatMreze/StatusPacijenta
+# Test rezultati
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Paket menadžer
+packages/
+*.nupkg
+*.snupkg
+
+# Backup fajlovi
+*.bak
+*.tmp
+*.swp
+
+# Rider/Resharper cache (ako koristiš JetBrains)
+.idea/
+*.DotSettings.user
+
+# JSON lokalni ili privremeni fajlovi
+*.local.json
+
+# Ostalo što Visual Studio ponekad generiše
+*.dbmdl
+*.jfm
